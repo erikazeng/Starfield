@@ -77,7 +77,7 @@ class OddballStar extends Star{
   void show() {
     noStroke();
     fill(255, 192, 203);
-    star((int)x, (int)y, 15, 5, 5); 
+    star((int)x, (int)y, 15, 10, 5); 
     fill(255, 255, 255);
   }
 
@@ -85,10 +85,6 @@ class OddballStar extends Star{
   void move() {
     x += Math.cos(myAngle) * mySpeed;
     y += Math.sin(myAngle) * mySpeed;
-    if (x>500 || x<0 ||y>500 || y<0) {
-      x = 250;
-      y = 250;
-    }
   }
 }
 
