@@ -44,7 +44,6 @@ class Star
   int k;
   Star()
   {
-    k=((int)(Math.random()*6))*2;
     x= 250;
     y=250;
     myAngle=Math.random()*2*Math.PI;
@@ -69,7 +68,6 @@ class OddballStar extends Star{
   OddballStar()
   {
     x=y=250;
-    k=(((int)(Math.random()*10))*2)+1;
     mySpeed=Math.random()*4+2;
   }
 
