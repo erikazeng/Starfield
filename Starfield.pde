@@ -2,7 +2,7 @@ Star [] bob;
 void setup()
 {
   size(500, 500);
-  bob=new Star [300];
+  bob=new Star [22];
   for (int i=0; i<6; i++) {
     bob[i]=new OddballStar();
   }
@@ -102,4 +102,3 @@ void star(float x, float y, float radius1, float radius2, int npoints) {
   }
   endShape(CLOSE);
 }
-
